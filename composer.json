@@ -1,0 +1,39 @@
+{
+    "name": "notpurpell/composito",
+    "description": "Composito is a small package that gives eloquent models the ability to have composite primary keys.",
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "laravel/framework": "~5.8.0|^6.0|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "keywords":
+    [
+        "eloquent",
+        "composite",
+        "primary key",
+        "composite keys",
+        "database"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joe Karam",
+            "email": "joekaram97@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Composito\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Composito\\Test\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
